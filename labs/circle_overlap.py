@@ -3,11 +3,11 @@
 #     along the same horizontal line, are disjoint, overlapping, or
 #     mutually contained.
 
-x1 = float(input("Enter the position on the x-axis of the first circle: "))
-radius1 = float(input("Enter the radius of the first circle: "))
+x1 = float(input("Enter the position on the x-axis of the left circle: "))
+radius1 = float(input("Enter the radius of the left circle: "))
 
-x2 = float(input("Enter the position on the x-axis of the second circle: "))
-radius2 = float(input("Enter the radius of the second circle: "))
+x2 = float(input("Enter the position on the x-axis of the right circle: "))
+radius2 = float(input("Enter the radius of the right circle: "))
 
 # your work goes here
 
