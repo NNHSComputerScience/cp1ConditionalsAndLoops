@@ -17,3 +17,11 @@ radius2 = float(input("Enter the radius of the right circle: "))
 
 # Extend your program to support any two circles regardless of their
 #     location (as opposed to lying on the same horizontal line).
+
+
+
+
+
+# Extend your program to support any two circles *in three dimensions*
+#	regardless of their location (as opposed to lying on the same horizontal line).
+
