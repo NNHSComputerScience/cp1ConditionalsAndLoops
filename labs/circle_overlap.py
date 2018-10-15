@@ -1,7 +1,7 @@
 # Complete the following code to test whether two circles, each
 #     having a user-defined radius and a fixed center point lying
 #     along the same horizontal line, are disjoint, overlapping, or
-#     mutually contained.
+#     mutually contained. (This  is how collisions are detected in video games!)
 
 x1 = float(input("Enter the position on the x-axis of the left circle: "))
 radius1 = float(input("Enter the radius of the left circle: "))
