@@ -37,7 +37,8 @@ False
 # LOGICAL OPERATORS: and, or, not
 #   order of precendence is: not, and, or
 #   https://runestone.academy/runestone/static/thinkcspy/Selection/PrecedenceofOperators.html
-
+#
+#	We can use parentheses to force a specific order of evaluation
 # CHALLENGE: Generate a random number between 1 and 13 and
 #            print "Your number is lucky." if the number is 7, 11, or 13.
 
