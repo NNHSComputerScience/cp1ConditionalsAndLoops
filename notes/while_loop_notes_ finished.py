@@ -1,6 +1,6 @@
 # while loop notes
 
-# IN ENGLISH (PSEUDOCODE):
+# IN ENGLISH (PSUEDOCODE):
 # if condition is True:
 #   run some block of code
 #   if false, block is skipped
@@ -8,39 +8,42 @@
 #   this block runs if no other conditions are met
 
 # while condition is True:
-#   continue to run this block of code (loop)
-#   until condition becomes False
-# loop finished, program continues sequentially
+#       continue to run this block of code (body of the loop)
+#       until condition becomes False
+# loop is finished, program continues sequentially
 
-# WHILE LOOP: control structure that allows you to repeat blocks of code
-#				based on a condition
+# WHILE LOOP: control structure that allows you to repeat blocks of code based on a condition
+#
 # SENTINEL VALUE: the value that causes the loop to end (checked in the condition)
-    
+   
 # How to use a counter
 #   Keeps track of number of times loop is executed.
-#	!!! annotate with #1, #2, #3, #4 to match questions
-counter = 0
-print ("Let's count to 100!")
-input("Press enter to start the counter.")
-while counter < 101:    # sentry variable = counter
-    print ("The count is at: ", counter)
-    counter += 1
 
-# Common mistake: not updating sentry variable (results in infinite loop)
+# 2. What has to be initializaed before the loop starts?
+counter = 1
+print("Let's count ot 100!")
+input("Press enter to start the counter")
 
-input("Press enter to exit.\n\n\n")
+### 1. What is the condition that keeps the loop running?
+##while counter <= 100:         # sentinel varaible is counter
+##    # 3. What has to be done inside the loop?
+##    print("The count is at: ", counter)
+##    counter += 1
+## 
+### 4. What has to be done after the loop?
+##print("All done counting!")
+
+
+# Common mistake: not updating sentinel variable (results in an infinite loop)
+
+input("\nPress enter to exit.")
 
 # Countdown Challenge (on own)
 #   Make a counter that counts down from 10 and then says "BLAST OFF!"
-
-print("Let's count down to BLAST OFF!")
-input("Press enter to start the countdown.")
 count = 10
-
 while count > 0:
     print(count)
     count -= 1
-
 print("BLAST OFF!")
 
 input("\nPress enter to exit.")
@@ -50,18 +53,17 @@ input("\nPress enter to exit.")
 #   Print a message to tell the user when the count is half-way done
 
 count = 0
-end = 100
+countEnd = 100
+print("\n\nLet's count to 100 by 5s!")
+input("Press enter to start the counter")
 
-print("\n\nLet's count to 100 by 5's!")
-input("Press enter to start the counter.")
- 
-while count <= end:
+while count <= countEnd:
     print("The count is at: ", count)
-    if count == (end / 2):
-        print("Half-way there!")
+    if count == countEnd/2:
+        print("Halfway there!")
     count += 5
-
-input("\nPress enter to exit.\n")
+    
+input("\nPress enter to exit.")
 
 # die_roller Challenge (partner)
 #   Guess how many rolls it takes to roll a 5?
