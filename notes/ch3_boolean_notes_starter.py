@@ -35,5 +35,3 @@ Extension challenges:
 
 '''
 
-
-input("Press enter to exit.")

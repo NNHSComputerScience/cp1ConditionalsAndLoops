@@ -36,5 +36,5 @@ if money:
 else:
     print ("Please, wait.  It may be a while.")
 
-input("\n\nPress the enter key to exit.")
+
 

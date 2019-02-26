@@ -48,7 +48,7 @@
 #   else, "Sorry we don't have that flavor. Here's your Pistachio."
 
 
-input("Press enter to exit.")
+
 
 
 
