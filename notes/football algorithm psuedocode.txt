@@ -1,0 +1,40 @@
+if section is B and row is between 1-20:
+	pay $100
+else if section is A or C and row is between 1-20:
+	pay $75
+else if section is A or B or C and row is between 21-40:
+	pay $65
+else if section is A or B or C and row is between 41-60:
+	pay $50
+	
+
+if section is B and row is between 1-20:
+	pay $100
+else if section is A or C and row is between 1-20:
+	pay $75
+else if section is A or B or C and row is between 21-40:
+	pay $65
+else:
+	pay $50
+	
+	
+if section is B and row is between 1-20:
+	pay $100
+else if row is between 1-20:
+	pay $75
+else if row is between 21-40:
+	pay $65
+else:
+	pay $50
+	
+	
+if row is between 1-20:
+	if section is B:
+		pay $100
+	else:
+		pay $75
+else if row is between 21-40:
+	pay $65
+else:
+	pay $50
+	
